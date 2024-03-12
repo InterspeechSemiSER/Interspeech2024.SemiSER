@@ -4,7 +4,7 @@
 
 - Structure of the repo is as follows:
 
-.
+    .
     ├── ...
     ├── test                    # Test files (alternatively `spec` or `tests`)
     │   ├── benchmarks          # Load and stress tests
