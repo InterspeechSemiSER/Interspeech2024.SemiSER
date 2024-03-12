@@ -4,7 +4,10 @@
 
 - Structure of the repo is as follows:
 ```
-├── fixmatch                # Files of FixMatch implementation with Wav2Vec 2.0
+├── augmentation                # Files of augmentation for speech data
+│   ├── augmentation.py     # Implementation of all augmentation methods
+
+└── fixmatch                # Files of FixMatch implementation with Wav2Vec 2.0
 │   ├── model.py            # Implementation of the FixMatch model
 │   ├── train.py            # Training code
 │   └── eval.py             # Evaluation code
