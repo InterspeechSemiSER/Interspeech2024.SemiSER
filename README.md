@@ -4,11 +4,19 @@
 
 - Structure of the repo is as follows:
 ```
-.
-├── ...
-├── test                    # Test files (alternatively `spec` or `tests`)
-│   ├── benchmarks          # Load and stress tests
-│   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-│   └── unit                # Unit tests
-└── ...
+├── fixmatch                # Files of FixMatch implementation with Wav2Vec 2.0
+│   ├── model.py            # Implementation of the FixMatch model
+│   ├── train.py            # Training code
+│   └── eval.py             # Evaluation code
+└── npl                     # Files of FixMatch implementation with Negative Pseudo-labeling
+│   ├── model.py            # Implementation of the FixMatch + NPL model
+│   ├── train.py            # Training code
+│   └── eval.py             # Evaluation code
+└── proposed                # Files of our proposed model
+│   ├── model.py            # Implementation of the FixMatch + NPL + CC model
+│   ├── train.py            # Training code
+│   └── eval.py             # Evaluation code
+└── wav2vec                 # Files of Wav2Vec 2.0
+│   ├── train.py            # Training code
+│   └── eval.py             # Evaluation code
 ```
