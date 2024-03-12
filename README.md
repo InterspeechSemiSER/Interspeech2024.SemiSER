@@ -26,3 +26,14 @@
 │   ├── train.py            # Training code
 │   └── eval.py             # Evaluation code
 ```
+- Requirements to run the code:
+```
+scikit-learn
+numpy
+torch
+torchaudio
+transformers
+librosa
+soundfile
+speechaugs
+```
