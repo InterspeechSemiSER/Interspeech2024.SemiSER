@@ -1,4 +1,4 @@
-# Unleashing the Potential of Unlabeled Speech: A Trustworthy Pseudo-Labeling Framework for Semi-Supervised Emotion Recognition
+# Exploiting the Potential of Unlabeled Data: a Reliable Semi-Supervised Framework for Speech Emotion Recognition
 
 - This GitHub repo contains the code of Submission #1954 in Interspeech 2024.
 
